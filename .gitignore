@@ -1,0 +1,12 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/TarjetaPresentacion/packages
+/TarjetaPresentacion/TarjetaPresentacion/bin
+/TarjetaPresentacion/BaseDatos/obj
+/TarjetaPresentacion/Entidades/obj
+/TarjetaPresentacion/Negocio/obj
+/TarjetaPresentacion/TarjetaPresentacion/obj
+/TarjetaPresentacion/TarjetaPresentacionServicio/bin
+/TarjetaPresentacion/TarjetaPresentacionServicio/obj

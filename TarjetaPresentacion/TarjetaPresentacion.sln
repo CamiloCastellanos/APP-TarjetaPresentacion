@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - BaseDatos", "04 - BaseDatos", "{5F3B338D-0442-421E-9903-F1EC006180D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Entidades", "03 - Entidades", "{D1666BA2-63B2-472A-9161-156663CD1F31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Negocio", "02 - Negocio", "{17522481-14A4-4F84-8AC2-CE409646EEC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Presentacion", "00 - Presentacion", "{335CB809-17D0-47DE-9488-FDEFA7EC03EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Servicios", "01 - Servicios", "{19E14356-6850-457C-8CF4-5A4ECF2361F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Aplicacion Movil", "00 - Aplicacion Movil", "{ED33F97E-F48C-427A-95A3-FE3CF6CFCBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarjetaPresentacionServicio", "TarjetaPresentacionServicio\TarjetaPresentacionServicio.csproj", "{687F9F65-B1B6-4F8A-BEB7-05892F13F7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{9A3C2272-5AA4-42D1-A255-259FAA6FC5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{5F24D874-52BC-4F67-8E55-F3EA40E59290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDatos", "BaseDatos\BaseDatos.csproj", "{F6F6F582-9917-469D-BD6E-5D917EFFDA54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{687F9F65-B1B6-4F8A-BEB7-05892F13F7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687F9F65-B1B6-4F8A-BEB7-05892F13F7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687F9F65-B1B6-4F8A-BEB7-05892F13F7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687F9F65-B1B6-4F8A-BEB7-05892F13F7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3C2272-5AA4-42D1-A255-259FAA6FC5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3C2272-5AA4-42D1-A255-259FAA6FC5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3C2272-5AA4-42D1-A255-259FAA6FC5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3C2272-5AA4-42D1-A255-259FAA6FC5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F24D874-52BC-4F67-8E55-F3EA40E59290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F24D874-52BC-4F67-8E55-F3EA40E59290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F24D874-52BC-4F67-8E55-F3EA40E59290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F24D874-52BC-4F67-8E55-F3EA40E59290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F6F582-9917-469D-BD6E-5D917EFFDA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F6F582-9917-469D-BD6E-5D917EFFDA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F6F582-9917-469D-BD6E-5D917EFFDA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F6F582-9917-469D-BD6E-5D917EFFDA54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{687F9F65-B1B6-4F8A-BEB7-05892F13F7CA} = {19E14356-6850-457C-8CF4-5A4ECF2361F0}
+		{9A3C2272-5AA4-42D1-A255-259FAA6FC5A2} = {17522481-14A4-4F84-8AC2-CE409646EEC4}
+		{5F24D874-52BC-4F67-8E55-F3EA40E59290} = {D1666BA2-63B2-472A-9161-156663CD1F31}
+		{F6F6F582-9917-469D-BD6E-5D917EFFDA54} = {5F3B338D-0442-421E-9903-F1EC006180D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E27C80E5-EEC4-4FA0-BAA7-7510B39AA33F}
+	EndGlobalSection
+EndGlobal
